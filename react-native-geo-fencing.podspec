@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "Native modules to determine if a location is within defined geographical boundaries using Google Geometry library"
   s.license      = "MIT"
 
-  s.homepage     = "https://github.com/surialabs/react-native-geo-fencing"
+  s.homepage     = "https://github.com/robyweb/react-native-geo-fencing"
   s.source       = { git: "https://github.com/robyweb/react-native-geo-fencing.git", :tag => "#{s.version}" }
 
   s.requires_arc = true
