@@ -27,7 +27,8 @@ RCT_EXPORT_METHOD(
   }
 
 
-  if (GMSGeometryContainsLocation(locationPoint, (GMSPath *)polygonPath, NO)) {
+  if (GMSGeometryContainsLocation(locationPoint, (GMSPath *)polygonPath, NO)  || 
+        GMSGeometryIsLocationOnPathTolerance(locationPoint, (GMSPath *)polygonPath, NO, 20)) {
     // locationPoint is in polygonPath
     callback(@[@YES]);
   } else {
