@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.homepage     = "https://github.com/surialabs/react-native-geo-fencing"
-  s.source       = { git: "https://github.com/surialabs/react-native-geo-fencing.git", :tag => "#{s.version}" }
+  s.source       = { git: "https://github.com/robyweb/react-native-geo-fencing.git", :tag => "#{s.version}" }
 
   s.requires_arc = true
   s.source_files  = "ios/*"
